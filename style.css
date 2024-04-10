@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.target{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter";
+    padding: 2rem 1rem;
+    
+}
+
+.target__img{
+    display: flex;
+    justify-content: center;
+}
+ .photo{
+    border-radius: 50%;
+}
+
+.target__name{
+    font-weight: 400; 
+}
+
+ .target__place{
+    color: yellow;
+    font-weight: 400;
+ }
+
+.buttons{
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px 120px;
+    border-radius: 5%;
+    margin-top: 10px;
+    text-align: center;
+} 
+
+ 
+
