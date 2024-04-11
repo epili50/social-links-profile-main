@@ -11,7 +11,7 @@ body{
     justify-content: center;
 }
 
-.target{
+.card{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,13 +25,13 @@ body{
     
 }
 
-.target__img{
+.card__img{
     display: flex;
     justify-content: center;
 
     
 }
- .photo{
+.photo{
     border-radius: 50%;
 
     width: 70%;
@@ -42,14 +42,14 @@ body{
 }
 
 
-.target__name{
+.card__name{
     font-weight: 400; 
 
     font-size: 32px;
     margin: 0px;
 }
 
-.target__place{
+.card__place{
     color: yellow;
     font-weight: 400;
 
@@ -58,6 +58,13 @@ body{
     margin-bottom: 25px;
     
  }
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+
+} 
+
 
 .buttons{
     background-color: hsl(0, 0%, 20%);
