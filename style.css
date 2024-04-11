@@ -19,33 +19,60 @@ body{
     color: hsl(0, 0%, 100%);
     font-family: "Inter";
     padding: 2rem 1rem;
+
+    border-radius: 15px;
+    
     
 }
 
 .target__img{
     display: flex;
     justify-content: center;
+
+    
 }
  .photo{
     border-radius: 50%;
+
+    width: 70%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
 }
+
 
 .target__name{
     font-weight: 400; 
+
+    font-size: 32px;
+    margin: 0px;
 }
 
- .target__place{
+.target__place{
     color: yellow;
     font-weight: 400;
+
+    font-size: 18px;
+    margin: 5px;
+    margin-bottom: 25px;
+    
  }
 
 .buttons{
     background-color: hsl(0, 0%, 20%);
     padding: 10px 120px;
-    border-radius: 5%;
+    border-radius: 10px;
     margin-top: 10px;
     text-align: center;
+
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 20px;
+    
 } 
 
  
-
+p {
+    font-size: 15px;
+}
